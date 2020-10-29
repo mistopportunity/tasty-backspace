@@ -1,0 +1,33 @@
+/*
+   There's a whole lot of '!important' here.
+   There are simply too many variables out there in the open web to deal with...
+   So many stylesheets...
+   It's 'important' to at least try to maximize compatibility.
+   So that's why everything is so damn !important.
+*/
+
+div.animated-tasty-cursor {
+    display: block !important;
+    position: absolute !important;
+    outline: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    width: 32px !important;
+    height: 32px !important;
+    z-index: 2147483647 !important;
+}
+div.animated-tasty-cursor.hidden {
+    display: none !important;
+}
+
+/* Embed the gifs in the CSS file because it's more convenient and they load inline. They're only a few hundred bytes each. */
+div.animated-tasty-cursor.reverse {
+    background-image: url("data:image/gif;base64,R0lGODlhIAAgAPEAAAAAAP7+AP//AAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtJbWFnZU1hZ2ljaw1nYW1tYT0wLjQ1NDU1ACH5BAkMAAMALAAAAAAgACAAAAJ5nG+gy4wPT5srximy3tOmtoVCdy3iGToPg7ZjtQLu/EIK7SoIi6Mq3xP9ZMEc4FM0IpO+4+DGPOmexFCAOYVasU5tlNOtfjVZ8bhGPYM/Xm65nVQtv9OdOe60w2lyiQlfFwMk1eBBNShUaOhHobgo2AjzOElZaWlQAAAh/wtJbWFnZU1hZ2ljaw1nYW1tYT0wLjQ1NDU1ACH5BAkMAAIALAAAAAAgACAAAAJ8lG+gy4wPT5srxhmy3tOmtoVBdy3iGToPg7ZjtQLu/EIK7Sq2jKPq1/PBPqwgB4DAGDW6kpLW3D1nUQ8RdKpaKTyRVkLpfa9FKBJcXlanxnV3mfkJbnDmcP6Gf+n1WowfJHeld5eEJST4Z9JCYkXGdeaoCBkpaXmJmSlQAAAh/wtJbWFnZU1hZ2ljaw1nYW1tYT0wLjQ1NDU1ACH5BAkMAAMALAAAAAAgACAAAAJ9nG+gy4wPT5srWgmC2JzP+yha130gRqZedSqq6rTLmyrnwNCkfeOzLoiBckChzFUE9HxIHW9JfD17UZhyiRGNSlcsEyDtUn9hb7UmHpJpU3WTnY6crW35OlxHzMtHMHCTF+L3Z2Tx5sSitoVWeCEC12hIYWI22eCFmamJUAAAIf8LSW1hZ2VNYWdpY2sNZ2FtbWE9MC40NTQ1NQAh+QQJDAACACwAAAAAIAAgAAACfJRvoMuMD0+bK8YZst7TpraFQXct4hk6D4O2Y7UC7vxCCu0qtoyj6tfzwT6sIAeAwBg1upKS1tw9Z1EPEXSqWik8kVZC6X2vRSgSXF5Wp8Z1d5n5CW5w5nD+hn/p9VqMHyR3pXeXhCUk+GfSQmJFxnXmqAgZKWl5iZkpUAAAOw==") !important;
+}
+div.animated-tasty-cursor.forward {
+    background-image: url("data:image/gif;base64,R0lGODlhIAAgAPEAAAAAAP7+AP//AAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtJbWFnZU1hZ2ljaw1nYW1tYT0wLjQ1NDU1ACH5BAkMAAMALAAAAAAgACAAAAJ4nG+gy4wPT5srximy3tOmtoVCdy3iGToPg7ZjtQLu/EIK7SoIi6Mq3xP9ZMEc4FM0IpO+4+DGPOmexGIgIHRCoyltlauZbsEZ8ZdsJnO8Y+awnVQtudPdOe60w2lyiQlfFwMk1eBBNZjVZ0hBYWjBSOIoOUlZGVEAACH/C0ltYWdlTWFnaWNrDWdhbW1hPTAuNDU0NTUAIfkECQwAAwAsAAAAACAAIAAAAomcb6DLjA9PmyvGKbLWYdrUbFvQNRYjpiLpPKgKs5ULwLaoQMp9y8jLU/kki2Cs9KsZUx7iclRqgYKypk4ZpABO2JH2QxN+wU5eQDC+UtEU7pMTnU3fGusASD/niDt6Rr8V5icwlDRIiETTtwS4l7Ro1Bh4hQdlR1lkc/mhtUl21yn1OUpaajpQAAAh/wtJbWFnZU1hZ2ljaw1nYW1tYT0wLjQ1NDU1ACH5BAkMAAMALAAAAAAgACAAAAJ5nG+gy4wPT5srximy3spCvGlB0HnJEqZaaTKqynrKmzrmMNNcJaO6YGv5dMHeD8i74QDHopCYVC6hMWUuRIpKp6lsVXqFaW/h2vj5cxrT58uQpv68X3H3MVNHlOFt/Zxv9UcHsAXSlVXYALXlR9HAKOH4CElZaXlQAAAh/wtJbWFnZU1hZ2ljaw1nYW1tYT0wLjQ1NDU1ACH5BAkMAAMALAAAAAAgACAAAAKJnG+gy4wPT5srximy1mHa1Gxb0DUWI6Yi6TyoCrOVC8C2qEDKfcvIy1P5JItgrPSrGVMe4nJUaoGCsqZOGaQATtiR9kMTfsFOXkAwvlLRFO6TE51N3xrrAEg/54g7eka/FeYnMJQ0SIhE07cEuJe0aNQYeIUHZUdZZHP5obVJdtcp9TlKWmo6UAAAOw==") !important;
+}
+body.hidden-cursor, body.hidden-cursor>* {
+    cursor: none !important;
+}
